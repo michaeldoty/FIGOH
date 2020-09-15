@@ -1,0 +1,16 @@
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  min-width: 320px;
+
+  height: 30px;
+  border: 1px black solid;
+  margin-right: 8px;
+  text-align: right;
+  align-content: center;
+  box-shadow: 1px 1px 3px grey;
+  justify-content: space-evenly;
+  outline: 0;
+}

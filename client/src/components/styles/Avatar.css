@@ -1,0 +1,30 @@
+.avatarStats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.stats {
+  margin-left: 10px;
+  vertical-align: center;
+}
+.stats p {
+  margin: 0;
+  font-size: 0.75em;
+}
+
+.avatarButton {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  margin-left: 6px;
+  border-radius: 90px;
+  border: 1px black solid;
+  background-size: 100% !important;
+  background: url('../../assets/Doty2020.jpg');
+  justify-content: center;
+  align-content: center;
+  box-shadow: 1px 1px 3px grey;
+}

@@ -1,0 +1,111 @@
+.recordButtonOn {
+  background: url('../../assets/recording1.png');
+  background-size: 100% !important;
+  position: absolute;
+  top: 1em;
+  right: 0.75em;
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
+  border: 0px !important;
+  -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  -ms-animation: blink 1s linear infinite;
+  -o-animation: blink 1s linear infinite;
+  animation: blink 1s linear infinite;
+  font-size: 1.5em;
+  color: rgba(255, 0, 0, 0.3);
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  outline: 0;
+  z-index: 1;
+  /* box-shadow: 1px 1px 3px grey; */
+}
+
+.recordButtonOff {
+  background: url('../../assets/recording2.png');
+  background-size: 100% !important;
+  position: absolute;
+  top: 1em;
+  right: 0.75em;
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
+  border: 0px !important;
+  font-size: 1.5em;
+  color: rgba(255, 0, 0, 0.3);
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  outline: 0;
+  z-index: 1;
+  /* box-shadow: 1px 1px 3px grey; */
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

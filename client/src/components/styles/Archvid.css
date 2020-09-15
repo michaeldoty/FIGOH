@@ -1,0 +1,35 @@
+.archVids {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 20px;
+}
+
+.react-player {
+  box-shadow: 1px 1px 3px grey;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.vidTitle {
+  margin-top: 5px;
+  font-size: 0.75em;
+}
+
+.archVidFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.share {
+  background: url('../../assets/logo192.png');
+  height: 20px;
+  width: 20px;
+  background-size: 100% !important;
+  border: 0;
+  outline: none;
+}
