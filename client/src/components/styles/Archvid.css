@@ -18,17 +18,121 @@
   font-size: 0.75em;
 }
 
+.vidSize {
+  margin-left: 2px;
+  margin-top: 5px;
+  font-size: 0.75em;
+  font-style: italic;
+}
+
 .archVidFooter {
+  height: 30px;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.share {
+  background: url('../../assets/shareIcon.png');
+  height: 20px;
+  background-repeat: no-repeat;
+  width: 20px;
+  background-size: 100% !important;
+  border: 0;
+  outline: none;
+}
+
+.delete {
+  margin-left: 10px;
+  margin-right: 4px;
+  background: url('../../assets/trashIcon.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  background-size: 100% !important;
+  border: 0;
+  outline: none;
+}
+
+.share:active {
+  background: url('../../assets/shareIconActive.png');
+  height: 20px;
+  background-repeat: no-repeat;
+  width: 20px;
+  background-size: 100% !important;
+  border: 0;
+  outline: none;
+}
+
+.delete:active {
+  margin-left: 10px;
+  background: url('../../assets/trashIconActive.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  background-size: 100% !important;
+  border: 0;
+  outline: none;
+}
+
+.size {
+  margin-top: 5px;
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+.tagFooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 0.75em;
   align-items: center;
   justify-content: center;
 }
 
-.share {
-  background: url('../../assets/logo192.png');
-  height: 20px;
-  width: 20px;
+.tagItem {
+  margin-right: 5px;
+  padding: 5px;
+  min-width: 30px;
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+}
+
+.edit {
+  margin-left: 10px;
+  background-origin: padding-box;
+  margin-top: 2px;
+  background: url('../../assets/edit.png');
+  background-repeat: no-repeat;
+  height: 23px;
+  width: 23px;
+  background-size: 100% !important;
+  border: 0;
+  outline: none;
+}
+
+.edit:active {
+  background: url('../../assets/editActive.png');
+  height: 23px;
+  background-repeat: no-repeat;
+  width: 23px;
   background-size: 100% !important;
   border: 0;
   outline: none;

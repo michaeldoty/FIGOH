@@ -7,7 +7,7 @@ function Avatar(props) {
       <button className={props.class}>{props.name}</button>
       <div className='stats'>
         <p>Michael Doty</p>
-        <p># of Videos</p>
+        <p>42 Videos Secured</p>
         <p>22% of Cloud Storage Used</p>
       </div>
     </div>

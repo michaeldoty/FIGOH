@@ -17,3 +17,5 @@
 .env.production.local
 
 /videoUploads
+
+.env

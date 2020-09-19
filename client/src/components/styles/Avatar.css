@@ -15,11 +15,25 @@
 }
 
 .avatarButton {
-  display: flex;
   width: 60px;
   height: 60px;
   margin: auto;
   margin-left: 6px;
+  border-radius: 90px;
+  border: 1px black solid;
+  background-size: 100% !important;
+  background: url('../../assets/Doty2020.jpg');
+  justify-content: center;
+  align-content: center;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.avatarButton:active {
+  width: 57px;
+  height: 57px;
+  margin: auto;
+  margin-right: 1px;
+  margin-left: 8px;
   border-radius: 90px;
   border: 1px black solid;
   background-size: 100% !important;

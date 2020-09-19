@@ -10,7 +10,10 @@ const fs = require('fs');
 const moment = require('moment');
 const Videos = require('../dbase/models/videos');
 
-mongoose.connect('mongodb+srv://michaeldoty:weknow@figoh.qmta5.mongodb.net/FIGOH?retryWrites=true&w=majority')
+require('dotenv').config();
+const db_password = process.env.DB_PASSWORD;
+
+mongoose.connect(`mongodb+srv://michaeldoty:${db_password}@figoh.qmta5.mongodb.net/FIGOH?retryWrites=true&w=majority`)
 
 // *Middleware
 app.use(morgan('dev'));

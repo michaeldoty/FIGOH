@@ -4,7 +4,6 @@ import LiveVideo from './components/LiveVideo';
 import Avatar from './components/Avatar';
 import RecordButton from './components/RecordButton';
 import RecordView from './components/RecordView';
-import StorageButton from './components/StorageButton';
 import SearchBar from './components/SearchBar';
 import ArchVid from './components/ArchVid';
 import { Provider } from 'react-redux';
@@ -14,7 +13,7 @@ import logo from './assets/icon2.png';
 const App = () => {
   return (
     <Provider store={store}>
-      <div className='body'>
+      <div>
         <div className='App'>
           <span className='topBar'>
             <img src={logo} className='logo' alt='FIGOH' />
