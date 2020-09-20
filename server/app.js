@@ -13,7 +13,7 @@ const Videos = require('../dbase/models/videos');
 require('dotenv').config();
 const db_password = process.env.DB_PASSWORD;
 
-mongoose.connect(`mongodb+srv://michaeldoty:${db_password}@figoh.qmta5.mongodb.net/FIGOH?retryWrites=true&w=majority`)
+mongoose.connect(`mongodb+srv://${username}:${db_password}@figoh.qmta5.mongodb.net/FIGOH?retryWrites=true&w=majority`)
 
 // *Middleware
 app.use(morgan('dev'));
