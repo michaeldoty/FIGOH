@@ -12,8 +12,9 @@ const Videos = require('../dbase/models/videos');
 
 require('dotenv').config();
 const db_password = process.env.DB_PASSWORD;
+const db_username = process.env.DB_USERNAME;
 
-mongoose.connect(`mongodb+srv://michaeldoty:${db_password}@figoh.qmta5.mongodb.net/FIGOH?retryWrites=true&w=majority`)
+mongoose.connect(`mongodb+srv://${db_username}:${db_password}@figoh.qmta5.mongodb.net/FIGOH?retryWrites=true&w=majority`)
 
 // *Middleware
 app.use(morgan('dev'));
@@ -57,5 +58,14 @@ app.post('/upload', (req, res) => {
     return res.send('ERROR', error);
   }
 });
+
+app.get('/count', (req, res) => {
+  Videos.count({})
+    .then((data) => {
+      res.json(data);
+    })
+    .catch((err => console.log('error', err)));
+})
+
 
 module.exports = app;

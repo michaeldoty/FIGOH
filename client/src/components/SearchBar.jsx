@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './styles/SearchBar.css';
 
 function SearchBar(props) {
   const [input, setInput] = useState('');
+
+  useEffect(() => console.log('search UseEffect'));
 
   const handleSubmit = (e) => {
     e.preventDefault();
