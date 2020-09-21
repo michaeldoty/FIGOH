@@ -24,3 +24,8 @@
 - Visual flair:
   Large file sizes turn RED
   Background bar on cloud storage use going green/yellow/red
+
+### Features in the current pipelin
+
+- Cloud storage hosting
+- Edit tags
