@@ -1,5 +1,11 @@
 ## FIGOH
 
+Instant-on video recording app that ensures you don't miss unexpected moments.  Gives the user the ability to start recording quickly, while simultaneously streaming the captured video to personal, or hosted, cloud storage.
+
+Currently in early development and working through a long list of upcoming feature adds.
+
+There is opportunity for collaboration on this project, if it sounds interesting to you, please reach out!
+
 ### Current Features
 
 - Video records as app opens
