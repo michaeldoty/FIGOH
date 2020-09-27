@@ -35,3 +35,4 @@ There is opportunity for collaboration on this project, if it sounds interesting
 
 - Cloud storage hosting
 - Edit tags
+- Search by tag
