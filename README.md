@@ -37,3 +37,4 @@ There is opportunity for collaboration on this project, if it sounds interesting
 - Edit tags
 - Search by tag
 - Visual flair:
+- Delete videos
