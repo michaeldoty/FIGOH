@@ -38,3 +38,4 @@ There is opportunity for collaboration on this project, if it sounds interesting
 - Search by tag
 - Visual flair:
 - Delete videos
+- Cloud storage hosting
