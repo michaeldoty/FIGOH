@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import './styles/Avatar.css';
 import axios from 'axios';
 
-function Avatar(props) {
+export function Avatar(props) {
   const [count, setCount] = useState('');
 
   useEffect(() => {
+    console.log('Avatar Render');
     fetchNumVideos();
-    console.log('hi');
   }, [count]);
 
   const fetchNumVideos = () => {

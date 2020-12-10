@@ -45,6 +45,7 @@ app.post('/upload', (req, res) => {
 
     fileStream.on('finish', () => {
       console.log('finished writing file');
+
       const video = new Videos({
         _id: new mongoose.Types.ObjectId(),
         name: currDate,

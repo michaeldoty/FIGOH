@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/LiveVideo.css';
 import { connect } from 'react-redux';
 import { toggleRecording } from '../actions/toggleRecordingActions';
+import { Avatar } from './Avatar';
 
 const LiveVideo = ({ recording }) => {
   let constraintObj = {
@@ -80,6 +81,8 @@ const LiveVideo = ({ recording }) => {
           console.log('mediaRecorderState', mediaRecorder.state);
         } else {
           mediaRecorder.stop();
+          //run fetchNumVideos in Avatar
+          Avatar();
           console.log('mediaRecorderState', mediaRecorder.state);
         }
       });
