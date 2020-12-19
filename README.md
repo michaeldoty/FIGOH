@@ -39,5 +39,6 @@ There is opportunity for collaboration on this project, if it sounds interesting
 
 
 
-### Soon switching to React Native - early 2020
+### Soon switching to React Native - early 2021
+
 
