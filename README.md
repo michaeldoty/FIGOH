@@ -6,7 +6,7 @@ Currently in early development and working through a long list of upcoming featu
 
 There is opportunity for collaboration on this project, if it sounds interesting to you, please reach out!
 
-### Current Features
+### Current Feature Set
 
 - Video records as app opens
 - Video is stored locally and appears below live video
