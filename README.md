@@ -4,8 +4,6 @@ Instant-on video recording app that ensures you don't miss unexpected moments.  
 
 Currently in early development and working through a long list of upcoming feature adds.
 
-There is opportunity for collaboration on this project, if it sounds interesting to you, please reach out!
-
 ### Current Feature Set
 
 - Video records as app opens
