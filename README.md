@@ -37,6 +37,6 @@ Currently in early development and working through a long list of upcoming featu
 
 
 
-### Soon switching to React Native in early 2021!
+### Soon switching to React Native in Feb 2021!
 
 
